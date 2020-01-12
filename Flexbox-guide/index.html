@@ -4,7 +4,7 @@
   <meta charset='UTF-8'>
   <title></title>
   <style>
-    body {
+     body {
       margin: 0;
       padding: 0;
     }
@@ -33,12 +33,24 @@
     }
     .block1 {
       flex-basis: 400px;
+      flex-shrink: 2;
     }
     .block2 {
       flex-basis: 100px;
     }
     .block3 {
-      flex-basis: 200px;
+      flex-basis: 400px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="blocks">
+      <div class="block block1">1</div>
+      <div class="block block2">2</div>
+      <div class="block block3">3</div>
+    </div>
+  </div>
     }
   </style>
 </head>
